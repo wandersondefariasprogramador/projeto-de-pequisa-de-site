@@ -1,0 +1,85 @@
+body , html{
+    padding: 0;
+    margin: 0;
+    background-image: url(https://globalgrasshopper.com/wp-content/uploads/2012/01/10-of-the-most-beautiful-places-to-visit-in-Laos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #363636;
+    font-size: 18px;
+    box-sizing: border-box;
+    outline: none;
+}
+#title{
+    text-shadow: 0px 2px 0px #708090;
+    text-align: center;
+    color: #BEBEBE;
+    font-size: 100px;
+}
+#cards-position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    height: 175PX;
+    width: 270px;
+    background-color: #C1F4C5BB;
+    margin-left: 15px;
+    border-radius: 19px;
+    box-shadow: 5px 5px 5px 5px #1C0A00BB;
+
+}
+.cards-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cards-content  h1{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.cards-content , form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cards-content input{
+    width: 220px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    background-color: #C1F4C5BB;
+    font-size: 14px;
+}
+.efeito:hover{
+    background-color: #603601BB;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+
+
+/*========================================== ADDING THE RESPOSITIVITI =============================  */
+
+@media (max-width :600px) {
+    #cards-position{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .cards{
+        margin-left: 0px;
+        margin-bottom: 40px;
+      
+    }
+
+    
+}
